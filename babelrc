@@ -1,0 +1,18 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "electron": "1.7.9"
+                }
+            }
+        ],
+        "react",
+        "stage-0",
+        "stage-1"
+    ],
+    "plugins": [
+        "transform-decorators-legacy"
+    ]
+}
